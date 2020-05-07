@@ -1,0 +1,15 @@
+/* farver
+#283B42 blå
+#F05A21 orange
+#DDDDDE grå
+*/
+
+body{
+    background-color: #ddddde;
+}
+
+button{
+    background-color: #f05a21;
+    color: #ffffff;
+    border-radius: 5px;
+}
