@@ -1,7 +1,8 @@
-/* farver
-#283B42 blå
-#F05A21 orange
-#DDDDDE grå
+/*
+Farver:
+blå #283B42
+orange #F05A21
+grå #DDDDDE
 */
 
 body{
@@ -12,11 +13,13 @@ button{
     background-color: #f05a21;
     color: #ffffff;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 #knapper{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 #logo{
