@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/maincss.css">
+    <script src="js.js" defer></script> 
+    <link rel="icon" href="img/logorn.svg">
+    <title>Robot Nordic - Ny Skabelons</title>
+</head>
+
+<body>
+
+    <h2>Search/Filter Dropdown</h2>
+    <p>Click on the button to open the dropdown menu, and use the input field to search for a specific dropdown link.</p>
+    
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+      <div id="myDropdown" class="dropdown-content">
+        <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+        <a href="#about">About</a>
+        <a href="#base">Base</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+        <a href="#custom">Custom</a>
+        <a href="#support">Support</a>
+        <a href="#tools">Tools</a>
+      </div>
+    </div>
