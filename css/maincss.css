@@ -36,26 +36,26 @@ footer{
 }
 
 .hjem{
-    width: 50px;
+    width: 60px;
     height: auto;
 }
 
 .ny{
-    width: 50px;
+    width: 60px;
     height: auto;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
 .vaelg{
-    width: 50px;
+    width: 60px;
     height: auto;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
 .kontrol{
-    width: 50px;
+    width: 60px;
     height: auto;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
 #footerimg{
