@@ -37,11 +37,33 @@ button{
     display: block;
 }
 
+.hjem{
+    width: 50px;
+    height: auto;
+}
+
+.ny{
+    width: 50px;
+    height: auto;
+    margin-left: 50px;
+}
+
+.vaelg{
+    width: 50px;
+    height: auto;
+    margin-left: 50px;
+}
+
+.kontrol{
+    width: 50px;
+    height: auto;
+    margin-left: 50px;
+}
+
 #footerimg{
     display: flex;
     flex-direction: row;
-    width: 10px;
-    height: auto;
+    margin-top: 150px;
     
 }
 
