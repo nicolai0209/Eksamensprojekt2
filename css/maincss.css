@@ -48,6 +48,20 @@ footer{
     flex-direction: row;
 }
 
+h1{
+    font-family: 'Titillium Web';
+    margin: 50px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+#tilbageknap{
+    width: 100%;
+    height: 30px;
+    float: left;
+    margin: 12.5px -60% 0 -40%;
+}
+
 /*_____________ 700px eller under _______________*/
 @media only screen and (max-width: 700px){
     #knapper{
