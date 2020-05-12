@@ -73,7 +73,7 @@ h1{
     width: 100%;
     height: 30px;
     float: left;
-    margin: 12.5px -55% 0 -45%;
+    margin: 12.5px -58% 0 -42%;
 }
 
 ::placeholder{
@@ -89,7 +89,7 @@ label{
     color: #283B42;
     font-size: 20px;
     position: absolute;
-    margin: 20px 0 0 -25px;
+    margin: 20px 0 0 -10px;
 }
 input{
     border-radius: 5px;
@@ -97,7 +97,7 @@ input{
     border-color: transparent;
     height: 50px;
     width: 100px;
-    margin: 10px 0 50px 50%;
+    margin: 10px 0 50px 55%;
     text-align: right;
     cursor: text;
     font-family: 'Titillium Web';
