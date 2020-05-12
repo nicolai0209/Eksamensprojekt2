@@ -39,7 +39,7 @@ button{
 }
 
 footer{
-    background:#283B42;
+    
 }
 
 .hjem{
@@ -69,6 +69,7 @@ footer{
     display: flex;
     flex-direction: row;
     margin-top: 100px;
+    background:#283B42;
 }
 
 h1{
