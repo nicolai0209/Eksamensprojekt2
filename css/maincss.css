@@ -37,9 +37,14 @@ button{
     display: block;
 }
 
+footer{
+    background:#283B42;
+}
+
 .hjem{
     width: 50px;
     height: auto;
+    color: #ffffff;
 }
 
 .ny{
@@ -63,8 +68,7 @@ button{
 #footerimg{
     display: flex;
     flex-direction: row;
-    margin-top: 150px;
-    
+    margin-top: 100px;
 }
 
 h1{
