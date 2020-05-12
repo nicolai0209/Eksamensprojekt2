@@ -2,9 +2,10 @@
 
 body{
     background-color: #ddddde;
+    margin: 0px;
 }
 
-button{
+.button{
     background-color: #f05a21;
     color: #ffffff;
     border-radius: 5px;
@@ -32,38 +33,32 @@ button{
 }
 
 footer{
-    
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background:#283B42;
 }
 
-.hjem{
+.iconwhite{
     width: 60px;
     height: auto;
+    margin: 10px 0 10px 0;
 }
 
-.ny{
+.iconorange {
     width: 60px;
     height: auto;
-    margin-left: 40px;
-}
-
-.vaelg{
-    width: 60px;
-    height: auto;
-    margin-left: 40px;
-}
-
-.kontrol{
-    width: 60px;
-    height: auto;
-    margin-left: 40px;
+    margin: 10px 0 10px 0;
 }
 
 
 #footerimg{
     display: flex;
     flex-direction: row;
-    margin-top: 100px;
-    background:#283B42;
+    justify-content: space-between;
+    margin: 0 20px 0 20px;
 }
 
 h1{
