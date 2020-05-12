@@ -19,7 +19,8 @@ button{
     border-color: transparent;
     margin: 15% 25% -10% 25%;
     padding: 5% 0 5% 0;
-    font-family: 'Titillium Web'
+    font-family: 'Titillium Web';
+    margin-top: 30%;
 }
 
 #knapper{
