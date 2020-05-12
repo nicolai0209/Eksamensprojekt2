@@ -32,36 +32,38 @@ button{
 }
 
 footer{
-    background:#283B42;
+    
 }
 
 .hjem{
-    width: 50px;
+    width: 60px;
     height: auto;
 }
 
 .ny{
-    width: 50px;
+    width: 60px;
     height: auto;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
 .vaelg{
-    width: 50px;
+    width: 60px;
     height: auto;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
 .kontrol{
-    width: 50px;
+    width: 60px;
     height: auto;
-    margin-left: 50px;
+    margin-left: 40px;
 }
+
 
 #footerimg{
     display: flex;
     flex-direction: row;
     margin-top: 100px;
+    background:#283B42;
 }
 
 h1{
