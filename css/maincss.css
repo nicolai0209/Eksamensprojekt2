@@ -37,15 +37,12 @@ button{
     display: block;
 }
 
-footer{
-    
-}
-
 #footerimg{
-    width: 1000px;
-    height: auto;
-    display:flex;
+    display: flex;
     flex-direction: row;
+    width: 10px;
+    height: auto;
+    
 }
 
 /*_____________ 700px eller under _______________*/
