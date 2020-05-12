@@ -37,6 +37,14 @@ button{
     display: block;
 }
 
+#footerimg{
+    display: flex;
+    flex-direction: row;
+    width: 10px;
+    height: auto;
+    
+}
+
 /*_____________ 700px eller under _______________*/
 @media only screen and (max-width: 700px){
     #knapper{
