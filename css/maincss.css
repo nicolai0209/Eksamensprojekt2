@@ -142,7 +142,7 @@ form{
     position: relative;
     margin-left: 24%;
     margin-top: 35%;
-  
+    
     
   }
   
@@ -164,6 +164,7 @@ form{
     height: 0;
     border: 6px solid transparent;
     border-color: #fff transparent transparent transparent;
+    
   }
   
   /*point the arrow upwards when the select box is open (active):*/
@@ -180,6 +181,7 @@ form{
     border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
     cursor: pointer;
     user-select: none;
+    border-radius: 5px;
   }
   
   /*style items (options):*/
