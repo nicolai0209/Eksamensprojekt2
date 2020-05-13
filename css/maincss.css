@@ -234,7 +234,7 @@ form{
   .select-selected:after {
     position: absolute;
     content: "";
-    top: 14px;
+    top: 18px;
     right: 10px;
     width: 0;
     height: 0;
@@ -245,8 +245,8 @@ form{
   
   /*point the arrow upwards when the select box is open (active):*/
   .select-selected.select-arrow-active:after {
-    border-color: transparent transparent #fff transparent;
-    top: 7px;
+    border-color: transparent transparent #ddddde transparent;
+    top: 12px;
   }
   
   /*style the items (options), including the selected item:*/
@@ -254,10 +254,9 @@ form{
     color: #ffffff;
     padding: 8px 16px;
     border: 1px solid transparent;
-    border-color: transparent transparent #ffffff transparent;
+    border-color: transparent transparent #ddddde transparent;
     cursor: pointer;
     user-select: none;
-    border-radius: 5px;
   }
   
   /*style items (options):*/
@@ -268,6 +267,7 @@ form{
     left: 0;
     right: 0;
     z-index: 99;
+    top: 47px;
     
   }
 
