@@ -2,6 +2,7 @@
 
 * {
     font-family: 'Titillium Web';
+    box-sizing: border-box;
 }
 
 body{
@@ -138,6 +139,9 @@ form{
     justify-content: center;
     text-decoration: none;
 }
+
+
+
 /*_____________ 700px eller under _______________*/
 @media only screen and (max-width: 700px){
     #knapper{
@@ -152,7 +156,7 @@ form{
 .custom-select {
     position: relative;
     margin-left: 23%;
-    margin-top: 20%;
+    
     
     
   }
@@ -218,3 +222,30 @@ form{
 
 
 
+  form.example input[type=text] {
+    padding: 10px;
+    border: 1px solid #a1a1a1;
+    float: left;
+    width: 52%;
+    background: #f1f1f1;
+    margin-left: 16%;
+    border-radius: 0;
+  }
+  
+  form.example button {
+    float: left;
+    width: 15%;
+    padding: 10px;
+    background: #f05a21;
+    color: white;
+    font-size: 20px;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
