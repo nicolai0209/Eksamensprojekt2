@@ -209,10 +209,8 @@ form{
     text-decoration: none;
 }
 
-<<<<<<< HEAD
 
 
-=======
 .buttonnaestepak{
   background-color: #f05a21;
   color: #ffffff;
@@ -223,7 +221,6 @@ form{
   padding: 5% 17% 5% 17%;
   margin: 0 0 30% 0;
 }
->>>>>>> 35e3012ca50529a68855b8a998c77b956a3b7c02
 /*_____________ 700px eller under _______________*/
 @media only screen and (max-width: 700px){
     #knapper{
@@ -330,7 +327,6 @@ form{
   margin-top: 300px;
 }
 
-<<<<<<< HEAD
   form.example input[type=text] {
     padding: 10px;
     border: 1px solid #a1a1a1;
@@ -358,11 +354,9 @@ form{
     clear: both;
     display: table;
   }
-=======
 .tlfj{
 text-align: center;
 font-size: 20px;
 margin-left: 50px;
 margin-right: 50px;
 }
->>>>>>> 35e3012ca50529a68855b8a998c77b956a3b7c02
