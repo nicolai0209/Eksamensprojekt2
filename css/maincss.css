@@ -42,7 +42,7 @@ footer{
     width: 100%;
     height: auto;
     margin: 0 auto;
-    background:#283B42;
+    background:#222b3c;
 }
 
 .iconwhite{
@@ -178,7 +178,7 @@ form{
     color: #ffffff;
     padding: 8px 16px;
     border: 1px solid transparent;
-    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    border-color: transparent transparent #ffffff transparent;
     cursor: pointer;
     user-select: none;
     border-radius: 5px;
@@ -187,7 +187,7 @@ form{
   /*style items (options):*/
   .select-items {
     position: absolute;
-    background-color: #f05a21;
+    background-color: #222b3c;
     top: 100%;
     left: 0;
     right: 0;
