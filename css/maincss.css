@@ -37,7 +37,7 @@ body{
 }
 
 footer{
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     height: auto;
@@ -206,6 +206,17 @@ form{
     display: flex;
     justify-content: center;
     text-decoration: none;
+}
+
+.buttonnaestepak{
+  background-color: #f05a21;
+  color: #ffffff;
+  cursor: pointer;
+  border-color: transparent;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5% 17% 5% 17%;
+  margin: 0 0 30% 0;
 }
 /*_____________ 700px eller under _______________*/
 @media only screen and (max-width: 700px){
