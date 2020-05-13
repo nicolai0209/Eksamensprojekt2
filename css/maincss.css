@@ -192,7 +192,9 @@ form{
     left: 0;
     right: 0;
     z-index: 99;
+    
   }
+
   
   /*hide the items when the select box is closed:*/
   .select-hide {
@@ -200,7 +202,7 @@ form{
   }
   
   .select-items div:hover, .same-as-selected {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: #f05a21;
   }
 
 
