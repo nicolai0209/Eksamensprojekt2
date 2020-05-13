@@ -140,8 +140,8 @@ form{
 /*drop down the container must be positioned relative:*/
 .custom-select {
     position: relative;
-    margin-left: 24%;
-    margin-top: 35%;
+    margin-left: 23%;
+    margin-top: 20%;
     
     
   }
