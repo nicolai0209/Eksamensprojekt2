@@ -42,7 +42,7 @@ footer{
     width: 100%;
     height: auto;
     margin: 0 auto;
-    background:#283B42;
+    background:#222b3c;
 }
 
 .iconwhite{
@@ -151,9 +151,9 @@ form{
 /*drop down the container must be positioned relative:*/
 .custom-select {
     position: relative;
-    margin-left: 24%;
-    margin-top: 35%;
-  
+    margin-left: 23%;
+    margin-top: 20%;
+    
     
   }
   
@@ -175,6 +175,7 @@ form{
     height: 0;
     border: 6px solid transparent;
     border-color: #fff transparent transparent transparent;
+    
   }
   
   /*point the arrow upwards when the select box is open (active):*/
@@ -188,20 +189,23 @@ form{
     color: #ffffff;
     padding: 8px 16px;
     border: 1px solid transparent;
-    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    border-color: transparent transparent #ffffff transparent;
     cursor: pointer;
     user-select: none;
+    border-radius: 5px;
   }
   
   /*style items (options):*/
   .select-items {
     position: absolute;
-    background-color: #f05a21;
+    background-color: #222b3c;
     top: 100%;
     left: 0;
     right: 0;
     z-index: 99;
+    
   }
+
   
   /*hide the items when the select box is closed:*/
   .select-hide {
@@ -209,7 +213,7 @@ form{
   }
   
   .select-items div:hover, .same-as-selected {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: #f05a21;
   }
 
 
