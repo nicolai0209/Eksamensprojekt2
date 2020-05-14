@@ -311,6 +311,21 @@ form{
   }
 
 
+
+  .buttonny{
+    background-color: #f05a21;
+    color: #ffffff;
+    cursor: pointer;
+    border-color: transparent;
+    font-family: 'Titillium Web';
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5% 17% 5% 17%;
+    margin: 77.5% 0 0 0;
+  
+  }
+
+
 .buttontlfj{
     background-color: #f05a21;
     color: #ffffff;
