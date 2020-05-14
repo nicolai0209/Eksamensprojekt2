@@ -127,6 +127,20 @@ form{
     justify-content: center;
     text-decoration: none;
 }
+<<<<<<< HEAD
+=======
+
+.buttonnaestepak{
+  background-color: #f05a21;
+  color: #ffffff;
+  cursor: pointer;
+  border-color: transparent;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5% 17% 5% 17%;
+  margin: 0 0 30% 0;
+}
+>>>>>>> 264b117087da1dbbd6772a100a20477d82a08a39
 /*_____________ 700px eller under _______________*/
 @media only screen and (max-width: 700px){
     #knapper{
@@ -219,3 +233,47 @@ form{
     font-size: 21px;
 }
 
+<<<<<<< HEAD
+=======
+  form.example input[type=text] {
+    padding: 10px;
+    border: 1px solid #a1a1a1;
+    float: left;
+    width: 52%;
+    background: #f1f1f1;
+    margin-left: 16%;
+    border-radius: 0;
+    height: 40px;
+    padding-right: 30%;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+
+  form.example button {
+    float: left;
+    width: 14.7%;
+    padding: 10px;
+    background: #f05a21;
+    color: white;
+    border-left: none;
+    cursor: pointer;
+    margin-top: 10px;
+    height: 40px;
+    border: 1px solid #f05a21;
+  }
+  
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.tlfj{
+text-align: center;
+font-size: 20px;
+margin-left: 50px;
+margin-right: 50px;
+}
+>>>>>>> 264b117087da1dbbd6772a100a20477d82a08a39
