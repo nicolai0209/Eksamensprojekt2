@@ -201,7 +201,6 @@ form{
     font-size: 20px;
     border-radius: 5px;
     padding: 5% 17% 5% 17%;
-    margin: 30% 0 0 0;
 }
 
 .buttonnaeste2{
@@ -220,6 +219,7 @@ form{
     display: flex;
     justify-content: center;
     text-decoration: none;
+    margin: 0 0 30% 0;
 }
 
 .buttonnaestepak{
@@ -230,7 +230,6 @@ form{
   font-size: 20px;
   border-radius: 5px;
   padding: 5% 17% 5% 17%;
-  margin: 0 0 30% 0;
 }
 /*_____________ 700px eller under _______________*/
 @media only screen and (max-width: 700px){
@@ -301,6 +300,7 @@ form{
     top: 47px;
     max-height:252px;
     overflow:scroll; 
+
   }
 
   
@@ -327,6 +327,8 @@ form{
     margin: 77.5% 0 0 0;
   } 
 
+  
+  
 
 
 .buttontlfj{
@@ -397,3 +399,4 @@ font-size: 20px;
 margin-left: 50px;
 margin-right: 50px;
 }
+
