@@ -12,23 +12,18 @@
     <a href="forside.html"><img id="tilbageknap" src="img/left-arrow.svg" alt="tilbageknap"></a>
     <h1>Vælg skabelon</h1>
 
-    <form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
-        <input type="text" placeholder="Søg.." name="search2">
-        <button type="submit"><img src="img/search.svg" alt=""><i class="fa fa-search"></i></button>
-      </form>
-
-
-    <div class="custom-select" style="width:200px;">
-        <select>
-          <option value="0">Vælg skabelon</option>
-          <option value="1">Skabelon 1</option>
-          <option value="2">Skabelon 2</option>
-          <option value="3">Skabelon 3</option>
-          <option value="4">Skabelon 4</option>
-          <option value="5">Skabelon 5</option>
-          
-        </select>
-      </div>
+    <input class="skabelon" list=text_editors placeholder="Søg efter skabelon..">
+<button class="pilskabelon">▼</button>
+<datalist id="text_editors">
+    <select multiple size=6>
+      <option value="test">test
+      <option value="automationday">automationday     
+      <option value="test 2">test 2
+      <option value="at">at
+      <option value="test 3">test 3
+      <option value="test 4">test 4
+    </select>
+  </datalist>
 
     <footer>
         <div id="footerimg">
