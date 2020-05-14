@@ -16,24 +16,28 @@ body{
     border-radius: 5px;
     cursor: pointer;
     border-color: transparent;
-    margin: 15% 25% -10% 25%;
-    padding: 5% 0 5% 0;
+    padding: 5% 10% 5% 10%;
     font-family: 'Titillium Web';
-    margin-top: 30%;
     font-size: 20px;
+    width: 210px;
+}
+
+.knaplink{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  margin: 70px 0 0 0;
 }
 
 #knapper{
     display: flex;
-    flex-direction: row;
     justify-content: center;
 }
 
 #logo{
     height: 100%;
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 210px;
+    margin: 50px auto 0px auto;
     display: block;
 }
 
@@ -77,7 +81,7 @@ h1{
 h2{
     color: #222b3c;
     margin: 0 0 30px -10px;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 #tilbageknap{
@@ -93,7 +97,6 @@ h2{
     color: #222b3c;
     font-family: 'Titillium Web';
     font-size: 20px;
-    padding-right: 10px;
 }
 label{
     font-family: 'Titillium Web';
@@ -113,6 +116,7 @@ input{
     cursor: text;
     font-family: 'Titillium Web';
     font-size: 20px;
+    padding-right: 10px;
 }
 form{
     margin: 50px 0 0 50px;
@@ -201,7 +205,6 @@ form{
     font-size: 20px;
     border-radius: 5px;
     padding: 5% 17% 5% 17%;
-    margin: 30% 0 0 0;
 }
 
 .buttonnaeste2{
@@ -213,13 +216,13 @@ form{
     font-size: 20px;
     border-radius: 5px;
     padding: 5% 17% 5% 17%;
-    margin: 30% 0 30% 0;
 }
 
 .buttonlink{
     display: flex;
     justify-content: center;
     text-decoration: none;
+    margin: 0 0 30% 0;
 }
 
 .buttonnaestepak{
@@ -230,7 +233,6 @@ form{
   font-size: 20px;
   border-radius: 5px;
   padding: 5% 17% 5% 17%;
-  margin: 0 0 30% 0;
 }
 /*_____________ 700px eller under _______________*/
 @media only screen and (max-width: 700px){
@@ -246,8 +248,7 @@ form{
 .custom-select {
     position: relative;
     margin-left: 23%;
-    
-    
+        
     
   }
   
@@ -257,25 +258,26 @@ form{
   
   .select-selected {
     background-color:#f05a21;
+    height: 50px;
   }
   
   /*style the arrow inside the select element:*/
   .select-selected:after {
     position: absolute;
     content: "";
-    top: 18px;
+    top: 20px;
     right: 10px;
     width: 0;
     height: 0;
     border: 6px solid transparent;
     border-color: #fff transparent transparent transparent;
-    
+  
   }
   
   /*point the arrow upwards when the select box is open (active):*/
   .select-selected.select-arrow-active:after {
     border-color: transparent transparent #ddddde transparent;
-    top: 12px;
+    top: 14px;
   }
   
   /*style the items (options), including the selected item:*/
@@ -286,6 +288,7 @@ form{
     border-color: transparent transparent #ddddde transparent;
     cursor: pointer;
     user-select: none;
+  
   }
   
   /*style items (options):*/
@@ -297,7 +300,9 @@ form{
     right: 0;
     z-index: 99;
     top: 47px;
-    
+    max-height:252px;
+    overflow:scroll; 
+
   }
 
   
@@ -322,21 +327,23 @@ form{
     border-radius: 5px;
     padding: 5% 17% 5% 17%;
     margin: 77.5% 0 0 0;
+  } 
+
   
-  }
+  
 
 
 .buttontlfj{
-    background-color: #f05a21;
-    color: #ffffff;
-    border-radius: 5px;
-    cursor: pointer;
-    border-color: transparent;
-    margin: 15% 25% -10% 25%;
-    padding: 5% 0 5% 0;
-    font-family: 'Titillium Web';
-    margin-top: 10%;
-    font-size: 20px;
+  background-color: #f05a21;
+  color: #ffffff;
+  cursor: pointer;
+  border-color: transparent;
+  font-family: 'Titillium Web';
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5% 17% 5% 17%;
+  margin: 30% 0 0 0;
+  margin-top: 50px;
 }
 
 
@@ -350,8 +357,8 @@ form{
   border-radius: 5px;
   padding: 5% 17% 5% 17%;
   margin: 30% 0 0 0;
-  margin-top: 300px;
-}
+  margin-top: 150px;
+  }
 
   form.example input[type=text] {
     padding: 10px;
@@ -396,6 +403,7 @@ margin-right: 50px;
 }
 
 
+<<<<<<< HEAD
 
 
 
@@ -469,3 +477,27 @@ option:hover {
 input::-webkit-calendar-picker-indicator {
   display: none;
 }
+=======
+.navn{
+margin-left: 50px;
+}
+
+.antal{
+margin-left: 50px;
+}
+
+#antal{
+margin-bottom: 20px;
+margin-left: 230px;
+}
+
+#navn{
+width:200px;
+margin-left: 130px;
+}
+
+#skabelonnavn{
+  text-align: right;
+  padding: 10px;
+}
+>>>>>>> 22ed9ce8d1311f3d9d2a2753c5d72395d15f4aa1

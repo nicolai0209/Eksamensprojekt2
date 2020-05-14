@@ -4,35 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/maincss.css">
+    <script src="js.js" defer></script> 
     <link rel="icon" href="img/logorn.svg">
     <title>Robot Nordic - Brugergrænseflade</title>
 </head>
 <body>
-    <a href="fyldning.html"><img id="tilbageknap" src="img/left-arrow.svg" alt="tilbageknap"></a>
+    <a href="pakning.html"><img id="tilbageknap" src="img/left-arrow.svg" alt="tilbageknap"></a>
     <h1>Produkt</h1>
-    <select>
-      <option value="0">Vælg skabelon</option>
-      <option value="1">Skabelon 1</option>
-      <option value="2">Skabelon 2</option>
-      <option value="3">Skabelon 3</option>
-      <option value="4">Skabelon 4</option>
-      <option value="5">Skabelon 5</option>
-      
-    </select>
-  </div>
-<form>
+    <label class="navn" for="max positiv">Navn</label>
+    <input type="text" id="navn" placeholder="" name="max positiv"><br>
+    <label class="antal" for="max negativ">Antal produkter</label>
+    <input type="number" id="antal" placeholder="stk" name="max negativ"><br>
+
+    <form>
     <h2>Pakke:</h2>
-    <div class="custom-select" style="width:200px;">
-      <label class="paklabel" for="max positiv">Længde</label>
-    <input type="number" id="max positiv" placeholder="mm" name="max positiv"><br>
+    <label class="paklabel" for="pakkeform">Pakke form</label>
+    <div class="custom-select" style="width: 110px; margin: 42px 0px 50px 170px;">
+    <select>
+      <option value="0">Kasse</option>
+      <option value="1">Kasse</option>
+      <option value="2">Cylinder</option>
+    </select>
+    </div>
+
+    <label class="paklabel" for="max positiv">Længde</label>
+    <input type="number" placeholder="mm" name="max positiv"><br>
     <label class="paklabel" for="max negativ">Bredde</label>
-    <input type="number" id="max negativ" placeholder="mm" name="max negativ"><br>
+    <input type="number" placeholder="mm" name="max negativ"><br>
     <label class="paklabel" for="max negativ">Højde</label>
-    <input type="number" id="max negativ" placeholder="mm" name="max negativ"><br>
+    <input type="number" placeholder="mm" name="max negativ"><br>
     <label class="paklabel" for="max negativ">Vægt</label>
-    <input type="number" id="max negativ" placeholder="g" name="max negativ"><br>
+    <input type="number" placeholder="g" name="max negativ"><br>
     <label class="paklabel" for="max negativ">Side ud</label>
-    <input type="number" id="max negativ" placeholder="Antal sider" name="max negativ"><br>
+    <input type="number" placeholder="Antal" name="max negativ"><br>
 
     <label class="container">Kun top placering
         <input type="checkbox">
@@ -49,7 +53,7 @@
       
 </form>
 <div id="knapper">
-    <div><a class="buttonlink" href="pakning.html"><button class="buttonnaeste2">Næste</button></a></div>
+    <div><a class="buttonlink" href="tlfjprodukt.html"><button class="buttonnaeste2">Næste</button></a></div>
 </div>
 <footer>
     <div id="footerimg">
