@@ -4,14 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/maincss.css">
+    <script src="js.js" defer></script> 
     <link rel="icon" href="img/logorn.svg">
     <title>Robot Nordic - Brugergrænseflade</title>
 </head>
 <body>
     <a href="fyldning.html"><img id="tilbageknap" src="img/left-arrow.svg" alt="tilbageknap"></a>
     <h1>Produkt</h1>
-<form>
-    <h2>Pakke:</h2>
+    <form>
+      <h2>Pakke:</h2>
+      <p>Pakke form</p>
+    <div class="custom-select" style="width:200px;">
+    <select>
+      <option value="0">Vælg form</option>
+      <option value="1">Kasse</option>
+      <option value="2">Cylinder</option>
+    </select>
+  </div>
+
       <label class="paklabel" for="max positiv">Længde</label>
     <input type="number" id="max positiv" placeholder="mm" name="max positiv"><br>
     <label class="paklabel" for="max negativ">Bredde</label>
@@ -38,7 +48,7 @@
       
 </form>
 <div id="knapper">
-    <div><a class="buttonlink" href="pakning.html"><button class="buttonnaeste">Næste</button></a></div>
+    <div><a class="buttonlink" href="pakning.html"><button class="buttonnaeste2">Næste</button></a></div>
 </div>
 <footer>
     <div id="footerimg">
