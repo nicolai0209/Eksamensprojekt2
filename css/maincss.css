@@ -249,6 +249,7 @@ form{
     
     
     
+    
   }
   
   .custom-select select {
@@ -269,7 +270,7 @@ form{
     height: 0;
     border: 6px solid transparent;
     border-color: #fff transparent transparent transparent;
-    
+  
   }
   
   /*point the arrow upwards when the select box is open (active):*/
@@ -286,6 +287,7 @@ form{
     border-color: transparent transparent #ddddde transparent;
     cursor: pointer;
     user-select: none;
+  
   }
   
   /*style items (options):*/
@@ -297,7 +299,8 @@ form{
     right: 0;
     z-index: 99;
     top: 47px;
-    
+    max-height:252px;
+    overflow:scroll; 
   }
 
   
@@ -322,7 +325,7 @@ form{
     border-radius: 5px;
     padding: 5% 17% 5% 17%;
     margin: 77.5% 0 0 0;
-  
+  } 
 
 
 
