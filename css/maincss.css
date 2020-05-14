@@ -332,16 +332,16 @@ form{
 
 
 .buttontlfj{
-    background-color: #f05a21;
-    color: #ffffff;
-    border-radius: 5px;
-    cursor: pointer;
-    border-color: transparent;
-    margin: 15% 25% -10% 25%;
-    padding: 5% 0 5% 0;
-    font-family: 'Titillium Web';
-    margin-top: 10%;
-    font-size: 20px;
+  background-color: #f05a21;
+  color: #ffffff;
+  cursor: pointer;
+  border-color: transparent;
+  font-family: 'Titillium Web';
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5% 17% 5% 17%;
+  margin: 30% 0 0 0;
+  margin-top: 50px;
 }
 
 
@@ -355,8 +355,8 @@ form{
   border-radius: 5px;
   padding: 5% 17% 5% 17%;
   margin: 30% 0 0 0;
-  margin-top: 300px;
-}
+  margin-top: 250px;
+  }
 
   form.example input[type=text] {
     padding: 10px;
