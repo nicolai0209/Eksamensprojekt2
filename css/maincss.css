@@ -77,7 +77,7 @@ h1{
 h2{
     color: #222b3c;
     margin: 0 0 30px -10px;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 #tilbageknap{
@@ -93,7 +93,6 @@ h2{
     color: #222b3c;
     font-family: 'Titillium Web';
     font-size: 20px;
-    padding-right: 10px;
 }
 label{
     font-family: 'Titillium Web';
@@ -113,6 +112,7 @@ input{
     cursor: text;
     font-family: 'Titillium Web';
     font-size: 20px;
+    padding-right: 10px;
 }
 form{
     margin: 50px 0 0 50px;
@@ -212,7 +212,6 @@ form{
     font-size: 20px;
     border-radius: 5px;
     padding: 5% 17% 5% 17%;
-    margin: 30% 0 30% 0;
 }
 
 .buttonlink{
@@ -245,9 +244,7 @@ form{
 .custom-select {
     position: relative;
     margin-left: 23%;
-    
-    
-    
+        
     
   }
   
@@ -257,13 +254,14 @@ form{
   
   .select-selected {
     background-color:#f05a21;
+    height: 50px;
   }
   
   /*style the arrow inside the select element:*/
   .select-selected:after {
     position: absolute;
     content: "";
-    top: 18px;
+    top: 20px;
     right: 10px;
     width: 0;
     height: 0;
@@ -275,7 +273,7 @@ form{
   /*point the arrow upwards when the select box is open (active):*/
   .select-selected.select-arrow-active:after {
     border-color: transparent transparent #ddddde transparent;
-    top: 12px;
+    top: 14px;
   }
   
   /*style the items (options), including the selected item:*/
@@ -400,3 +398,26 @@ margin-left: 50px;
 margin-right: 50px;
 }
 
+
+.navn{
+margin-left: 50px;
+}
+
+.antal{
+margin-left: 50px;
+}
+
+#antal{
+margin-bottom: 20px;
+margin-left: 230px;
+}
+
+#navn{
+width:200px;
+margin-left: 130px;
+}
+
+#skabelonnavn{
+  text-align: right;
+  padding: 10px;
+}
