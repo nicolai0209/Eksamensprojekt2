@@ -10,8 +10,7 @@
 	.st4{stroke:#000000;stroke-width:15;stroke-linecap:round;stroke-miterlimit:10;}
 	.st5{fill:none;stroke:#020203;stroke-width:15;stroke-miterlimit:10;}
 	.st6{fill:#F05A21;}
-	.st7{font-family:'TitilliumWeb-Regular';}
-	.st8{font-size:180px;}
+	.st7{enable-background:new    ;}
 </style>
 <g id="Layer_1_2_" class="st0">
 	<g id="Layer_1_1_" class="st1">
@@ -82,5 +81,8 @@
 			 M510.8,182.8C510.9,182.8,510.9,182.8,510.8,182.8L510.8,182.8z M514.7,181.8L514.7,181.8L514.7,181.8z"/>
 	</g>
 </g>
-<text transform="matrix(1 0 0 1 364.5417 716.7003)" class="st6 st7 st8">Ny</text>
+<g class="st7">
+	<path class="st6" d="M379.8,716.7V592.1h25.9l47.7,112.3h3.8V592.1h13.7v124.6h-25.4l-48.4-112.3h-3.4v112.3H379.8z"/>
+	<path class="st6" d="M490.7,626.7h13.5l22.5,78.3h5.9l22.7-78.3h13.5l-37.4,130h-13.5l11.7-40h-13.3L490.7,626.7z"/>
+</g>
 </svg>
