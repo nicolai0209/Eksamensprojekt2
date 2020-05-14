@@ -203,6 +203,19 @@ form{
     padding: 5% 17% 5% 17%;
     margin: 30% 0 0 0;
 }
+
+.buttonnaeste2{
+  background-color: #f05a21;
+    color: #ffffff;
+    cursor: pointer;
+    border-color: transparent;
+    font-family: 'Titillium Web';
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5% 17% 5% 17%;
+    margin: 30% 0 30% 0;
+}
+
 .buttonlink{
     display: flex;
     justify-content: center;
