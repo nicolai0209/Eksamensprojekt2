@@ -250,6 +250,9 @@ form{
     position: relative;
     margin-left: 23%;
     
+    
+    
+    
   }
   
   .custom-select select {
@@ -270,7 +273,7 @@ form{
     height: 0;
     border: 6px solid transparent;
     border-color: #fff transparent transparent transparent;
-    
+  
   }
   
   /*point the arrow upwards when the select box is open (active):*/
@@ -287,6 +290,7 @@ form{
     border-color: transparent transparent #ddddde transparent;
     cursor: pointer;
     user-select: none;
+  
   }
   
   /*style items (options):*/
@@ -298,6 +302,8 @@ form{
     right: 0;
     z-index: 99;
     top: 47px;
+    max-height:252px;
+    overflow:scroll; 
 
   }
 
@@ -323,21 +329,23 @@ form{
     border-radius: 5px;
     padding: 5% 17% 5% 17%;
     margin: 77.5% 0 0 0;
+  } 
+
   
-  }
+  
 
 
 .buttontlfj{
-    background-color: #f05a21;
-    color: #ffffff;
-    border-radius: 5px;
-    cursor: pointer;
-    border-color: transparent;
-    margin: 15% 25% -10% 25%;
-    padding: 5% 0 5% 0;
-    font-family: 'Titillium Web';
-    margin-top: 10%;
-    font-size: 20px;
+  background-color: #f05a21;
+  color: #ffffff;
+  cursor: pointer;
+  border-color: transparent;
+  font-family: 'Titillium Web';
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5% 17% 5% 17%;
+  margin: 30% 0 0 0;
+  margin-top: 50px;
 }
 
 
@@ -351,8 +359,8 @@ form{
   border-radius: 5px;
   padding: 5% 17% 5% 17%;
   margin: 30% 0 0 0;
-  margin-top: 300px;
-}
+  margin-top: 150px;
+  }
 
   form.example input[type=text] {
     padding: 10px;
