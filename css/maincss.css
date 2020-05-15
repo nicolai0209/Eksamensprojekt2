@@ -256,7 +256,23 @@ form{
 }
 /*_____________ 700px og op _______________*/
 @media only screen and (min-width: 700px){
-  
+  h1{
+    font-size: 40px;
+  }
+  #tilbageknap{
+    margin-top: 18px;
+  }
+  label{
+    margin: 0 0 0 60px;
+    font-size: 25px;
+  }
+  ::placeholder{
+    font-size: 25px;
+  }
+  input{
+    margin: 0 0 50px 70%;
+    font-size: 25px;
+  }
 }
 
 
