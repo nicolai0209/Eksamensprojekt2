@@ -415,35 +415,10 @@ margin-left: 50px;
 margin-right: 50px;
 }
 
-.buttonplay{
-background-color: #f05a21;
-    color: #ffffff;
-    border-radius: 5px;
-    cursor: pointer;
-    border-color: transparent;
-    padding: 5% 10% 5% 10%;
-    font-family: 'Titillium Web';
-    font-size: 20px;
-    width: 210px;
-    margin: 20px 0px 0px 80px;
-  }
 
-  .buttonplay1{
-    background-color: #f05a21;
-    color: #ffffff;
-    border-radius: 5px;
-    cursor: pointer;
-    border-color: transparent;
-    padding: 5% 10% 5% 10%;
-    font-family: 'Titillium Web';
-    font-size: 20px;
-    width: 210px;
-    margin: 0px 0px 0px 80px;
-  }
 
-  .pallebillede{
-    margin: 0px 0px 20px 20px;
-  }
+
+
 
 
 
@@ -580,7 +555,7 @@ margin-left: 130px;
     width: 230px;
   }
   .buttonlink2{
-    margin: 40.5% 0 0 0;
+    margin: 35.5% 0 0 0;
   }
 
   .buttonlink3{
@@ -610,12 +585,13 @@ margin-left: 130px;
     width: 230px;
   }
   .buttonlink{
-    margin: 30px 0 16% 0;
+    margin: 30px 0 124px 0;
   }
 
   .skabelon {
-    width: 400px;
+    width: 500px;
   }
+}
 
   .pilskabelon {
     width: 60px;
@@ -626,7 +602,7 @@ margin-left: 130px;
     width: 450px;
     margin: -42px 0 0 18px;
   }
-}
+
 
 
 .pallebillede{
@@ -661,7 +637,7 @@ margin-left: 130px;
 .tlfj{
 font-size: 25px;
 }
-
+}
 
 
 
