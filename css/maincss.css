@@ -260,6 +260,10 @@ form{
     font-size: 40px;
     margin: 50px 0 100px 0;
   }
+  h2{
+    font-size: 30px;
+    margin-left: 40px;
+  }
   #tilbageknap{
     margin-top: 18px;
   }
@@ -273,6 +277,29 @@ form{
   input{
     margin: 0 0 50px 70%;
     font-size: 25px;
+  }
+  .buttonnaeste{
+    font-size: 25px;
+  }
+  .buttonlink2{
+    margin: 35.5% 0 0 0;
+  }
+  .container{
+    margin-left: 40px;
+    font-size: 25px;
+  }
+  .paklabel{
+    margin-left: 75px;
+    font-size: 25px;
+  }
+  .checkmark{
+    margin-left: 79%;
+  }
+  .buttonnaestepak{
+    font-size: 25px;
+  }
+  .buttonlink{
+    margin: 30px 0 124px 0;
   }
 }
 
