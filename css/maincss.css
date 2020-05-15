@@ -403,7 +403,6 @@ margin-right: 50px;
 }
 
 
-<<<<<<< HEAD
 
 
 
@@ -416,15 +415,13 @@ body {
   text-align: center;
 }
 
-body, input, button {
-  font-size: 12pt;
-}
+
 
   .skabelon::placeholder {
     color: #fff;
 }
 
-input {
+.skabelon {
   width: 250px;
   height: 40px;
   padding: 2px 20px 2px 2px;
@@ -477,7 +474,6 @@ option:hover {
 input::-webkit-calendar-picker-indicator {
   display: none;
 }
-=======
 .navn{
 margin-left: 50px;
 }
@@ -500,4 +496,3 @@ margin-left: 130px;
   text-align: right;
   padding: 10px;
 }
->>>>>>> 22ed9ce8d1311f3d9d2a2753c5d72395d15f4aa1
