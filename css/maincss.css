@@ -574,6 +574,16 @@ margin-left: 130px;
   }
 
   .skabelon {
-    width: 500px;
+    width: 400px;
+  }
+
+  .pilskabelon {
+    width: 60px;
+    top: -6px;
+  }
+
+  select {
+    width: 450px;
+    margin: -42px 0 0 18px;
   }
 }
