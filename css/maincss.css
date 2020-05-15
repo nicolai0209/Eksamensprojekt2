@@ -415,10 +415,35 @@ margin-left: 50px;
 margin-right: 50px;
 }
 
+.buttonplay{
+background-color: #f05a21;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: transparent;
+    padding: 5% 10% 5% 10%;
+    font-family: 'Titillium Web';
+    font-size: 20px;
+    width: 210px;
+    margin: 20px 0px 0px 80px;
+  }
 
+  .buttonplay1{
+    background-color: #f05a21;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: transparent;
+    padding: 5% 10% 5% 10%;
+    font-family: 'Titillium Web';
+    font-size: 20px;
+    width: 210px;
+    margin: 0px 0px 0px 80px;
+  }
 
-
-
+  .pallebillede{
+    margin: 0px 0px 20px 20px;
+  }
 
 
 
@@ -577,3 +602,4 @@ margin-left: 130px;
     width: 500px;
   }
 }
+
