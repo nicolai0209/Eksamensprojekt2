@@ -551,10 +551,23 @@ margin-left: 130px;
   }
   .buttonnaeste{
     font-size: 25px;
+    padding: 2.5% 10%;
+    width: 230px;
   }
   .buttonlink2{
     margin: 35.5% 0 0 0;
   }
+
+  .buttonlink3{
+    margin: 67.8% 0 0 0;
+  }
+
+  .buttonny{
+    font-size: 25px;
+    padding: 2.5% 10%;
+    width: 230px;
+  }
+
   .container{
     margin-left: 40px;
     font-size: 25px;
@@ -568,6 +581,8 @@ margin-left: 130px;
   }
   .buttonnaestepak{
     font-size: 25px;
+    padding: 2.5% 10%;
+    width: 230px;
   }
   .buttonlink{
     margin: 30px 0 124px 0;
@@ -576,6 +591,10 @@ margin-left: 130px;
   .skabelon {
     width: 500px;
   }
+<<<<<<< HEAD
+=======
+}
+>>>>>>> 4a8427718cab96b2b76121299147583417c0d356
 
   .pilskabelon {
     width: 60px;
