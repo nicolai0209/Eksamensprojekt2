@@ -258,6 +258,7 @@ form{
 @media only screen and (min-width: 700px){
   h1{
     font-size: 40px;
+    margin: 50px 0 100px 0;
   }
   #tilbageknap{
     margin-top: 18px;
