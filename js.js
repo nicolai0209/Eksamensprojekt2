@@ -74,7 +74,7 @@ document.addEventListener("click", closeAllSelect);
 
 
 
-
+/* js til vælg skabelon drop down menu */
 
 button = document.querySelector('button');
 datalist = document.querySelector('datalist');
