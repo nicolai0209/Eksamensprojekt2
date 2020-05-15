@@ -626,14 +626,28 @@ margin-left: 130px;
 }
 
 
-
-
-
-
-
-
-
-
 .pallebillede{
   width: 400px;
+  margin: 0px 0px 0px 170px;
 }
+
+.buttonplay{
+  font-size: 25px;
+    padding: 2.5% 10%;
+    margin: 30px 0px 0px 270px;
+}
+
+.buttonplay1{
+  font-size: 25px;
+    padding: 2.5% 10%;
+    margin: 30px 0px 0px 270px;
+}
+
+
+
+
+
+
+
+
+
