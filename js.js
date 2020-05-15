@@ -115,3 +115,18 @@ function hide_select() {
   datalist.style.display = '';
   button.textContent = "▼";
 }
+
+
+/* kode til video på kontrolpanel*/
+var myVideo = document.getElementById("video1"); 
+
+function playPause() { 
+  if (myVideo.paused) 
+    myVideo.play(); 
+  else 
+    myVideo.pause(); 
+} 
+
+function makeNormal() { 
+    myVideo.width = 420; 
+} 

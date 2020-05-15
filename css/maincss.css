@@ -534,3 +534,11 @@ margin-left: 130px;
   text-align: right;
   padding: 10px;
 }
+
+.videoclass{
+  text-align: center;
+}
+
+#video1{
+  width:420px;
+}
