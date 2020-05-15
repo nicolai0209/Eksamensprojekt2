@@ -232,6 +232,13 @@ form{
   margin: 93.5% 0 0 0;
 }
 
+.buttonlink2{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  margin: 30% 0 30% 0;
+}
+
 .buttonnaestepak{
   background-color: #f05a21;
   color: #ffffff;
