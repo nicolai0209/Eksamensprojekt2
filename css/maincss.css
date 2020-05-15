@@ -438,7 +438,7 @@ background-color: #f05a21;
     font-family: 'Titillium Web';
     font-size: 20px;
     width: 210px;
-    margin: 0px 0px 0px 80px;
+    margin: 20px 0px 0px 80px;
   }
 
   .pallebillede{
@@ -646,13 +646,11 @@ margin-left: 130px;
 .buttontlfj{
   font-size: 25px;
   padding: 2.5% 10%;
-  margin: 30px 0px 0px 0px;
 }
 
 .buttonafslut{
   font-size: 25px;
   padding: 2.5% 10%;
-  margin: 260px 0px 0px 0px;
 }
 
 .tlfj{
