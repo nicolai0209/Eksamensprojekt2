@@ -117,16 +117,3 @@ function hide_select() {
 }
 
 
-/* kode til video på kontrolpanel*/
-var myVideo = document.getElementById("video1"); 
-
-function playPause() { 
-  if (myVideo.paused) 
-    myVideo.play(); 
-  else 
-    myVideo.pause(); 
-} 
-
-function makeNormal() { 
-    myVideo.width = 420; 
-} 

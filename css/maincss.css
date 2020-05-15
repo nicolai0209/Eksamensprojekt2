@@ -256,6 +256,9 @@ form{
 }
 
 
+
+
+
 /*drop down the container must be positioned relative:*/
 .custom-select {
     position: relative;
@@ -414,6 +417,13 @@ margin-right: 50px;
 
 
 
+
+
+
+
+
+
+
 .skabel {
   text-align: center;
 }
@@ -512,6 +522,8 @@ margin-left: 130px;
 #video1{
   width:420px;
 }
+
+
 
 /*_____________ 700px og op _______________*/
 @media only screen and (min-width: 700px){
