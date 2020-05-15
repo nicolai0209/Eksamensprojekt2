@@ -356,8 +356,11 @@ form{
   font-size: 20px;
   border-radius: 5px;
   padding: 5% 17% 5% 17%;
-  margin: 30% 0 0 0;
-  margin-top: 150px;
+  margin:  0px 0 0 0;
+  }
+
+  .buttonlink2{
+    
   }
 
   form.example input[type=text] {
