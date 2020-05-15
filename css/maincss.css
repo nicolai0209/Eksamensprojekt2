@@ -32,6 +32,7 @@ body{
 #knapper{
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 #logo{
@@ -253,11 +254,9 @@ form{
   border-radius: 5px;
   padding: 5% 17% 5% 17%;
 }
-/*_____________ 700px eller under _______________*/
-@media only screen and (max-width: 700px){
-    #knapper{
-        flex-direction: column;
-    }
+/*_____________ 700px og op _______________*/
+@media only screen and (min-width: 700px){
+  
 }
 
 
