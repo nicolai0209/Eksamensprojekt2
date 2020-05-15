@@ -539,5 +539,18 @@ margin-left: 130px;
 }
 
 #video1{
-  width:420px;
+  width:250px;
+  height: auto;
+}
+
+.buttonplay{
+  background-color: #f05a21;
+  color: #ffffff;
+  cursor: pointer;
+  border-color: transparent;
+  font-family: 'Titillium Web';
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5% 17% 5% 17%;
+}
 }
