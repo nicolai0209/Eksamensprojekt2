@@ -566,7 +566,7 @@ margin-left: 130px;
     width: 60px;
     height: 40px;
     float: right;
-    margin: 10px 5px 0px 315px;
+    margin: 8px 5px 0px 315px;
     position: absolute;
 }
 
@@ -739,4 +739,9 @@ margin: 0 50px 0 50px;
   .antal{
     margin-left: 125px;
   }
+
+  .iknap{
+    margin-left: 710px;
+  }
+
 }
