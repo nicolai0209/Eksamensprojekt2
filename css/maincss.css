@@ -671,6 +671,9 @@ margin: 0 50px 0 50px;
    
   }
  
-  
+  .button{
+    font-size: 25px;
+    padding: 2.5% 10%;
+  }
 
 }
