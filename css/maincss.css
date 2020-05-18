@@ -20,6 +20,7 @@ body{
     font-family: 'Titillium Web';
     font-size: 20px;
     width: 210px;
+    text-align: center;
 }
 
 .knaplink{
@@ -435,6 +436,7 @@ background-color: #f05a21;
     font-size: 20px;
     width: 210px;
     margin: 20px 0px 0px 80px;
+    text-align: center;
   }
 
   .buttonplay1{
@@ -448,6 +450,7 @@ background-color: #f05a21;
     font-size: 20px;
     width: 210px;
     margin: 20px 0px 0px 80px;
+    text-align: center;
   }
 
   .pallebillede{
