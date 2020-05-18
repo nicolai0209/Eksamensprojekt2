@@ -90,7 +90,7 @@ h2{
     width: 100%;
     height: 30px;
     float: left;
-    margin: 12.5px -58% 0 -42%;
+    margin: 10.5px -58% 0 -42%;
 }
 
 ::placeholder{
@@ -555,12 +555,19 @@ margin-left: 130px;
   padding: 10px;
 }
 
-.videoclass{
-  text-align: center;
-}
-
-#video1{
-  width:420px;
+.iknap{
+    background-color: #222b3c; 
+    color: #ffffff;
+    border-radius: 5px 0 0 5px;
+    cursor: pointer;
+    border-color: transparent;
+    font-size: 25px;
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    float: right;
+    margin: 10px 5px 0px 315px;
+    position: absolute;
 }
 
 
