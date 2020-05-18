@@ -663,14 +663,18 @@ margin: 0 50px 0 50px;
 
 .buttonnyskabelon {
 
-  margin: 60% 0 0 0 ;
+  margin: 56.1% 0 0 0 ;
   }
   .custom-select {
     
     margin-left: 37%;
-   
+   margin-top: 30px;
   }
  
-  
+  #skabelonnavn {
+
+  width: 200px;  
+  margin-left: 403px;
+  }
 
 }
