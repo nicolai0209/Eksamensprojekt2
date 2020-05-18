@@ -615,6 +615,10 @@ margin-left: 130px;
     font-size: 25px;
     padding: 2.5% 10%;
   }
+  .buttonnaeste2{
+    font-size: 25px;
+    padding: 2.5% 10%;
+  }
   .buttonlink{
     margin: 30px 0 16% 0;
   }
@@ -706,4 +710,16 @@ margin: 0 50px 0 50px;
   margin-left: 403px;
   }
 
+  #navn{
+    margin-left: 59%;
+  }
+  .navn{
+    margin-left: 125px;
+  }
+  #antal{
+    margin-left: 72%;
+  }
+  .antal{
+    margin-left: 125px;
+  }
 }
