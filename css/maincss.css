@@ -317,6 +317,7 @@ form{
     border-color: transparent transparent #ddddde transparent;
     cursor: pointer;
     user-select: none;
+    font-size: 20px;
   
   }
   
@@ -329,7 +330,7 @@ form{
     right: 0;
     z-index: 99;
     top: 47px;
-    max-height:252px;
+    max-height:245px;
     overflow:scroll; 
     border-radius: 5px;
     margin-top: 5px;
