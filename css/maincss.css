@@ -460,7 +460,13 @@ background-color: #f05a21;
     margin: 0px 0px 20px 20px;
   }
 
-
+  .h1kontrol{
+    font-family: 'Titillium Web';
+    color: #222b3c;
+    margin: 50px 0 20px 0;
+    display: flex;
+    justify-content: center;
+  }
 
 
 
