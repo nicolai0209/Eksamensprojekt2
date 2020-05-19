@@ -47,20 +47,20 @@ footer{
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: auto;
+    height: 10%;
     margin: 0 auto;
     background:#222b3c;
 }
 
 .iconwhite{
     width: 60px;
-    height: auto;
+    height: 60px;
     margin: 10px 0 10px 0;
 }
 
 .iconorange {
     width: 60px;
-    height: auto;
+    height: 60px;
     margin: 10px 0 10px 0;
 }
 
