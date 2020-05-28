@@ -1,22 +1,21 @@
 var x, i, j, selElmnt, a, b, c;
-/*look for any elements with the class "custom-select":*/
+/*X kigger i HTML dokumentet efter alle elementer med class "custom-select":*/
 x = document.getElementsByClassName("custom-select");
 for (i = 0; i < x.length; i++) {
   selElmnt = x[i].getElementsByTagName("select")[0];
-  /*for each element, create a new DIV that will act as the selected item:*/
+  /* For a, b og c variablerne laver vi en ny DIV som vi kan ændre i CSS vha attributterne:*/
   a = document.createElement("DIV");
   a.setAttribute("class", "select-selected");
   a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
   x[i].appendChild(a);
-  /*for each element, create a new DIV that will contain the option list:*/
   b = document.createElement("DIV");
   b.setAttribute("class", "select-items select-hide");
   for (j = 1; j < selElmnt.length; j++) {
-    /*for each option in the original select element,
-    create a new DIV that will act as an option item:*/
     c = document.createElement("DIV");
     c.innerHTML = selElmnt.options[j].innerHTML;
+    /* Her laver vi en funktion som gør at man kan klikke:*/
     c.addEventListener("click", function(e) {
+
         /*when an item is clicked, update the original select box,
         and the selected item:*/
         var y, i, k, s, h;
