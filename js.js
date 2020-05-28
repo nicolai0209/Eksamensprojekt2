@@ -16,8 +16,8 @@ for (i = 0; i < x.length; i++) {
     /* Her laver vi en funktion som gør at man kan klikke:*/
     c.addEventListener("click", function(e) {
 
-        /*when an item is clicked, update the original select box,
-        and the selected item:*/
+        /*Når man klikker på et item, opdateres den originale select box,
+        og den valgte item */
         var y, i, k, s, h;
         s = this.parentNode.parentNode.getElementsByTagName("select")[0];
         h = this.parentNode.previousSibling;
@@ -39,8 +39,9 @@ for (i = 0; i < x.length; i++) {
   }
   x[i].appendChild(b);
   a.addEventListener("click", function(e) {
-      /*when the select box is clicked, close any other select boxes,
-      and open/close the current select box:*/
+      /* Når den valgte box er klikket på, 
+      lukker alle andre og åbner/lukker den nuværende box 
+      alt efter om det er første eller anden gang man klikker på den */
       e.stopPropagation();
       closeAllSelect(this);
       this.nextSibling.classList.toggle("select-hide");
