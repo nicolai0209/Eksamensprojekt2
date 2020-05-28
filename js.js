@@ -48,8 +48,7 @@ for (i = 0; i < x.length; i++) {
     });
 }
 function closeAllSelect(elmnt) {
-  /*a function that will close all select boxes in the document,
-  except the current select box:*/
+  /* En funktion der gør at alle boxe i dropdown menuen lukker, undtagen den valgte box */
   var x, y, i, arrNo = [];
   x = document.getElementsByClassName("select-items");
   y = document.getElementsByClassName("select-selected");
@@ -66,8 +65,7 @@ function closeAllSelect(elmnt) {
     }
   }
 }
-/*if the user clicks anywhere outside the select box,
-then close all select boxes:*/
+/* Hvis brugeren klikker hvor som helst omkring dropdown menuen, så lukker dropdown menuen */
 document.addEventListener("click", closeAllSelect);
 
 
