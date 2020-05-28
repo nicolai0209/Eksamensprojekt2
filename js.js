@@ -76,19 +76,19 @@ document.addEventListener("click", closeAllSelect);
 
 /* js til vælg skabelon drop down menu */
 
-button = document.querySelector('button');
-datalist = document.querySelector('datalist');
-select = document.querySelector('select');
-options = select.options;
+var button = document.querySelector('button');
+var datalist = document.querySelector('datalist');
+var select = document.querySelector('select');
+var options = select.options;
+var input = document.querySelector('input');
 
-/* on arrow button click, show/hide the DDL*/
-button.addEventListener('click', toggle_ddl);
+
 
 function toggle_ddl() {
   if (datalist.style.display === '') {
     datalist.style.display = 'block';
     this.textContent = "▲";
-    /* If input already has a value, select that option from DDL */
+    
     var val = input.value;
     for (var i = 0; i < options.length; i++) {
       if (options[i].text === val) {
@@ -99,17 +99,6 @@ function toggle_ddl() {
   } else hide_select();
 }
 
-/* when user selects an option from DDL, write it to text field */
-select.addEventListener('change', fill_input);
-
-function fill_input() {
-  input.value = options[this.selectedIndex].value;
-  hide_select();
-}
-
-/* when user wants to type in text field, hide DDL */
-input = document.querySelector('input');
-input.addEventListener('focus', hide_select);
 
 function hide_select() {
   datalist.style.display = '';
@@ -117,3 +106,12 @@ function hide_select() {
 }
 
 
+function fill_input() {
+  input.value = options[this.selectedIndex].value;
+  hide_select();
+}
+
+
+button.addEventListener('click', toggle_ddl);
+select.addEventListener('change', fill_input);
+input.addEventListener('focus', hide_select);
