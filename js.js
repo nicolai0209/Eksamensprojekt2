@@ -1,3 +1,4 @@
+/*X Herunder har vi vores variabler:*/
 var x, i, j, selElmnt, a, b, c;
 /*X kigger i HTML dokumentet efter alle elementer med class "custom-select":*/
 x = document.getElementsByClassName("custom-select");
